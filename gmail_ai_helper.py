@@ -508,7 +508,7 @@ Response:"""
         
         # Adjust layout and save
         plt.tight_layout()
-        plt.savefig('/mnt/user-data/outputs/gmail_analysis_charts.png', dpi=300, bbox_inches='tight')
+        plt.savefig('outputs/gmail_analysis_charts.png', dpi=300, bbox_inches='tight')
         logger.info("Charts saved to gmail_analysis_charts.png")
         plt.show()
     
