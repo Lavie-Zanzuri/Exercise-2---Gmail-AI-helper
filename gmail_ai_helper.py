@@ -581,7 +581,7 @@ def main():
             analyzer.generate_charts()
             
             # Save results to JSON file
-            with open('/mnt/user-data/outputs/email_analysis_results.json', 'w') as f:
+            with open('outputs/email_analysis_results.json', 'w') as f:
                 json.dump(results, f, indent=2, ensure_ascii=False)
             
             logger.info("Analysis completed successfully!")
